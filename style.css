@@ -9,19 +9,17 @@
   border: none;
   outline: none;
 }
-.item .far {
 
 
-}
 .item .far:hover{
   cursor: pointer;
-  padding: 3px;
+
 }
 .container {
   display: grid;
   background-color: white;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 1rem;
+  grid-gap: 0.7rem;
   padding: 10px;
   height: 200vh;
   width: 100%;
@@ -45,6 +43,7 @@ header h3 {
   border-radius: 5px;
   display: flex;
   align-items: center;
+  /* padding: 10px; */
   justify-content: space-evenly;
   flex-direction: row-reverse;
   font-size: 22px;
@@ -210,7 +209,7 @@ header h3 {
 }
 
 
-@media (max-width:720px)
+@media (max-width:750px)
 {
   header {
   
@@ -224,6 +223,11 @@ header h3 {
   .container{
     grid-template-columns: repeat(2, auto);
     grid-gap: 0.5rem;
+  }
+  .container .item{
+    /* padding: 10px; */
+    justify-content: space-around;
+    
   }
 }
 @media (max-width:350px)
