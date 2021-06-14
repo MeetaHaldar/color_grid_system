@@ -10,17 +10,22 @@
   outline: none;
 }
 .item .far {
-background-color: transparent;
-border: none;
+
+
+}
+.item .far:hover{
+  cursor: pointer;
+  padding: 3px;
 }
 .container {
   display: grid;
-  background-color: lightcyan;
+  background-color: white;
   grid-template-columns: repeat(4, auto);
   grid-gap: 1rem;
   padding: 10px;
   height: 200vh;
   width: 100%;
+ 
 }
 header {
   text-align: center;
@@ -40,8 +45,10 @@ header h3 {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  font-size: 22px;
+ 
 }
 .container #item-1 {
   background-color: #efa69f;
@@ -60,140 +67,179 @@ header h3 {
   background-color: #d0a7c6;
 }
 .container #item-6 {
-  background-color: #efa69f;
+  background-color: #CAFEFF;
 }
 
 .container #item-7 {
-  background-color: #efa69f;
+  background-color: #97BA28;
 }
 .container #item-8 {
-  background-color: #efa69f;
+  background-color: #7852FF;
 }
 .container #item-9 {
-  background-color: #efa69f;
+  background-color: #005073;
 }
 .container #item-10 {
-  background-color: #efa69f;
+  background-color: #BADA55;
 }
 .container #item-11 {
-  background-color: #efa69f;
+  background-color: #FFDA1A;
 }
 .container #item-12 {
   background-color: #0ff1ce;
 }
 .container #item-13 {
-  background-color: #efa69f;
+  background-color: #561D5E;
 }
 .container #item-14 {
-  background-color: #efa69f;
+  background-color: #86A2A3;
 }
 .container #item-15 {
-  background-color: #efa69f;
+  background-color: #FE794C;
 }
 .container #item-16 {
-  background-color: #efa69f;
+  background-color: #FE4C78;
 }
 .container #item-17 {
-  background-color: #efa69f;
+  background-color: #E1F2A2;
 }
 .container #item-18 {
-  background-color: #efa69f;
+  background-color: #CF4EE7;
 }
 .container #item-19 {
-  background-color: #efa69f;
+  background-color: 	#834ee7;
 }
 .container #item-20 {
-  background-color: #eec0ff;
+  background-color: #fe6f93;
 }
 .container #item-21 {
-  background-color: #eec0ff;
+  background-color: #fea5bb;
 }
 .container #item-22 {
-  background-color: #eec0ff;
+  background-color: #4c1624;
 }
 .container #item-23 {
-  background-color: #eec0ff;
+  background-color: #cb7558;
 }
 .container #item-24 {
-  background-color: #eec0ff;
+  background-color: #b1664d;
 }
 
 .container #item-25 {
-  background-color: #eec0ff;
+  background-color: #003850;
 }
 .container #item-26 {
-  background-color: #eec0ff;
+  background-color: #99b9c7;
 }
 .container #item-27 {
-  background-color: #eec0ff;
+  background-color: #469a65;
 }
 .container #item-28 {
-  background-color: #eec0ff;
+  background-color: #28583a;
 }
 .container #item-29 {
-  background-color: #eec0ff;
+  background-color: #142c1d;
 }
 .container #item-30 {
-  background-color: #da9da1;
+  background-color: #83e3a7;
+  color: white;
 }
 .container #item-31 {
-  background-color: #da9da1;
+  background-color: #879161;
 }
 .container #item-32 {
-  background-color: #da9da1;
+  background-color: #f0f8d0;
 }
 .container #item-33 {
-  background-color: #da9da1;
+  background-color: #7f6d0d;
 }
 .container #item-34 {
-  background-color: #da9da1;
+  background-color: #ffe147;
 }
 .container #item-35 {
-  background-color: #da9da1;
+  background-color: #ffe875;
 }
 .container #item-36 {
-  background-color: #da9da1;
+  background-color: #4c4107;
 }
 .container #item-37 {
-  background-color: #da9da1;
+  background-color: #ccae14;
 }
 .container #item-38 {
-  background-color: #da9da1;
+  background-color: #6b5079;
 }
 .container #item-39 {
-  background-color: #da9da1;
+  background-color: #403048;
 }
 .container #item-40 {
-  background-color: #d6a0f2;
+  background-color: #e2bcf5;
 }
 .container #item-41 {
-  background-color: #d6a0f2;
+  background-color: #077867
+  ;
 }
 .container #item-42 {
-  background-color: #d6a0f2;
+  background-color: #57f5dc;
 }
 
 .container #item-43 {
-  background-color: #d6a0f2;
+  background-color:
+  #26f2d2;
 }
 .container #item-44 {
-  background-color: #d6a0f2;
+  background-color: #b5726b;
 }
 .container #item-45 {
-  background-color: #d6a0f2;
+  background-color: #9d433a;
 }
 .container #item-46 {
-  background-color: #d6a0f2;
+  background-color: #dab8b5;
 }
 .container #item-47 {
-  background-color: #d6a0f2;
+  background-color: #350803;
 }
 .container #item-48 {
-  background-color: #d6a0f2;
+  background-color: 
+  #6f8233;
 }
 .container #item-49 {
-  background-color: #d6a0f2;
+  background-color: #cee588;
 }
 .container #item-50 {
-  background-color: #d6a0f2;
+  background-color: #060505;
+}
+
+
+@media (max-width:720px)
+{
+  header {
+  
+    padding: 1.2rem;
+   
+  }
+  header h3 {
+    font-size: 25px;
+    
+  }
+  .container{
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 0.5rem;
+  }
+}
+@media (max-width:350px)
+{
+
+  header {
+   
+    padding: 1rem;
+    
+  }
+  header h3 {
+    font-size: 20px;
+   
+  }
+  .container{
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 0.3rem;
+  }
 }
