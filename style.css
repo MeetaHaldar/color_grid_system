@@ -5,11 +5,24 @@
 }
 .container {
   display: grid;
-
+background-color: lightcyan;
   grid-template-columns: repeat(4, auto);
   grid-gap: 1rem;
   padding: 10px;
+  height: 200vh;
+  width: 100%;
 }
+header{
+    text-align: center;
+    padding: 1.5rem;
+    background-color: cadetblue;
+}
+header h3{
+    font-size: 30px;
+font-family: cursive;
+}
+
+
 .container .item {
   /* border: 1px solid black; */
   text-align: center;
