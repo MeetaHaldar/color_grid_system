@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.item input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
 .container {
   display: grid;
 background-color: lightcyan;

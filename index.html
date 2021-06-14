@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>color grid</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
   </head>
   <body>
     <header>
-      <h3>grid container</h3>
+      <h3>Grid color container</h3>
     </header>
     <div class="container">
-      <div class="item" id="item-1"></div>
+      <div class="item" id="item-1">
+        <button onclick="myFunction()">Copy text</button>
+        <input  value="tt" id="myInput">
+      </div>
       <div class="item" id="item-2"></div>
       <div class="item" id="item-3"></div>
       <div class="item" id="item-4"></div>
@@ -63,5 +68,14 @@
       <div class="item" id="item-49"></div>
       <div class="item" id="item-50"></div>
     </div>
+    <script>
+      function myFunction() {
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        alert("Copied the text: " + copyText.value);
+      }
+    </script>
   </body>
 </html>
